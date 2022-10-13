@@ -1,0 +1,117 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  background: #303172;
+  color: #a3aed0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  height: 100vh;
+  margin: 50px;
+  /* max-width: 1140px;
+  margin: 0 auto; */
+
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  background: #303172;
+  gap: 5%;
+}
+
+main > section {
+  width: 33%;
+}
+
+.right {
+  padding: 50px;
+  background: #a3aed0;
+  color: #303172;
+  border-radius: 10px;
+  border: 1px solid #fff;
+}
+
+
+h1,
+h3,
+h6 {
+  text-align: center;
+}
+input {
+  text-align: center;
+  width: 100%;
+}
+button {
+  width: 100%;
+  cursor: pointer;
+}
+
+
+
+a {
+  color: #ff2147;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.bold {
+  font-weight: bold;
+}
+
+
+/******************************************
+/* Classes
+/*******************************************/
+.hidden {
+  display: none;
+}
+
+
+/******************************************
+/* IDs
+/*******************************************/
+#instructions {
+  text-align: justify;
+}
+#licenseAvailabilityCategory {
+  color: #ff2147;
+}
+
+#previous,
+#next {
+  background: #a3aed0;
+  color: #303172;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+#patent-nav {
+  display: flex;
+  justify-content: space-between;
+}

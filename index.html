@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="USPTO Patent Marketplace Available for Licensing">
+    	<meta name="keywords" content="">
+		<title>The Patent Market</title>
+		<!-- fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet"> 
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<main>
+			<section class="left">
+				<h2>Contact Info</h2>
+				<h3 class="hidden">Contact Name</h3>
+				<p id="licenseeContactName"></p>
+				<h3 class="hidden">Contact Number</h3>
+				<p id="licenseeContactPhoneNumber"></p>
+				<h3 class="hidden">Contact Email</h3>
+				<p id="licenseeContactEmailAddressText"></p>
+				<h3 class="hidden">Contact Website</h3>
+				<p id="licenseeContactWebAddressURI"></p>
+				<h6 class="hidden">Total # of Patents: <span id="#total"></span></h6>
+			</section>
+			<section id="mid">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Seal_of_the_United_States_Patent_and_Trademark_Office.svg/240px-Seal_of_the_United_States_Patent_and_Trademark_Office.svg.png">
+				<h1>USPTO Patents Marketplace</h1>
+				<input type="text" name="" value="">
+				<button type="button" name="button">Get Patents</button>
+		
+				<h2>Publication/Patent Number</h2>
+				<p id="patentNumber"></p>
+				<h2>Publication Date</h2>
+				<p id="publishDate"></p>
+				<h2>License Availability</h2>
+				<p id="licenseAvailabilityCategory"></p>
+				<h2>Assignee Name</h2>
+				<p id="assigneeNameText"></p>
+				<h2>Abstract</h2>
+				<p id="inventionAbstractText"></p>
+				
+				<section id="patent-nav">
+					<span id="previous">Previous</span>
+					<span id="next">Next</span>
+				</section>
+				
+
+				<h6><span class="bold">Credits:</span> This website was made using the <a href="https://developer.uspto.gov/ipmarketplace-api/swagger-ui/index.html">IP Marketplace API</a></h6>
+			</section>
+			<section class="right">
+				<h3>Instructions</h3>
+				<p id="instructions">Enter a keyword to find related patents that are available for licensing. 
+				If you have an interest in and the ability to commercialize the technologies,
+				you can use this portal to find out ways to reach out to the patent holder(s).</p>
+			</section>
+
+		</main>
+
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
